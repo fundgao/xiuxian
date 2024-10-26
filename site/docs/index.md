@@ -9,6 +9,9 @@ hero:
   name: "中国修仙小说"
   text: ""
   tagline: 《凡人修仙传》《遮天》《仙逆》《满清条约》《诛仙》《斗破苍穹》《永生》《道诡异仙》《剑来》
+  image:
+    src: vitepress.webp
+    alt: VitePress
 
 features:
   - title: 凡人修仙传

@@ -27,11 +27,13 @@ export default defineConfig({
                 collapsed: true,
                 items: [
                   { text: "韩立", link: "/hanli" },
-                  { text: "南宫婉", link: "/page" },
-                  { text: "紫灵", link: "/page" },
-                  { text: "元瑶", link: "/page" },
+                  { text: "玄骨", link: "/xuangu" },
+                  { text: "南宫婉", link: "/nangongwan" },
+                  { text: "紫灵", link: "/ziling" },
+                  { text: "元瑶", link: "/yuanyao" },
                   { text: "银月", link: "/page" },
                   { text: "厉飞雨", link: "/page" },
+                  { text: "王婵", link: "/wangchan" },
                   { text: "张铁", link: "/page" },
                   { text: "墨大夫", link: "/page" },
                   { text: "墨彩环", link: "/page" },
@@ -52,7 +54,7 @@ export default defineConfig({
                 text: "宝物",
                 collapsed: true,
                 items: [
-                  { text: "掌天瓶", link: "/page" },
+                  { text: "掌天瓶", link: "/zhangtianping" },
                   { text: "青竹蜂云剑", link: "/page" },
                   { text: "虚天鼎", link: "/page" },
                   { text: "风雷翅", link: "/page" },
@@ -151,10 +153,23 @@ export default defineConfig({
     socialLinks: [
       { icon: "github", link: "https://github.com/fundgao/xiuxian" },
     ],
-    // 站点页脚配置
     footer: {
-      copyright: "Copyright © 2024-present Fund Gao",
+      message: "基于 MIT 许可发布",
+      copyright: `版权所有 © 2024-${new Date().getFullYear()} Fund Gao`,
     },
-    lastUpdatedText: "最后更新",
+    docFooter: {
+      prev: "上一页",
+      next: "下一页",
+    },
+    outline: {
+      label: "页面导航",
+    },
+    lastUpdated: {
+      text: "最后更新于",
+      formatOptions: {
+        dateStyle: "short",
+        timeStyle: "medium",
+      },
+    },
   },
 });
